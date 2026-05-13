@@ -2,6 +2,33 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+
+.mobile-text {
+  display: none;
+}
+
+.desktop-text {
+  display: block;
+}
+
+/* MÓVIL */
+@media screen and (max-width: 700px) {
+
+  .mobile-text {
+    display: block;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+
+}
+
+</style>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tablero de Loro</title>
 </head>
 
@@ -10,7 +37,15 @@
 <!-- HEADER -->
 <table width="100%">
   <tr>
-    <td><h1>El Tablero de Loro</h1>
+    <td><h1>
+
+  <img src="logo.png"
+       width="35"
+       style="vertical-align: middle;">
+
+  El Tablero de Loro
+
+</h1>
 <p>Archivo de intervención.</p></td>
     
     <td align="right">
@@ -25,7 +60,13 @@
 <a href="session002.html">
   <img src="tablero-blanco.png" width="100%">
 </a>
+<p class="desktop-text">
+haz click en el tablero
+</p>
 
+<p class="mobile-text">
+toca el tablero
+</p>
 <hr>
 
 <!-- LINKS ABAJO -->
