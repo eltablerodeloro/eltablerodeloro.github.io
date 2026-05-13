@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!-- TÍTULO -->
+  <title>000 — Template</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- RESPONSIVE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    body {
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .session-table td {
+      vertical-align: top;
+    }
+
+    /* VISTA MÓVIL */
+    @media screen and (max-width: 700px) {
+
+      .session-table,
+      .session-table tr,
+      .session-table td {
+        display: block;
+        width: 100% !important;
+      }
+
+      .artist-photo {
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        width: 100px !important;
+        text-align: right !important;
+      }
+
+      .artist-photo img {
+        width: 100px;
+      }
+
+      .artist-name {
+        margin-top: 5px;
+        font-size: 12px;
+      }
+
+      .main-content {
+        margin-top: 20px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NOMBRE SESIÓN -->
+  <h1>000 — Template</h1>
+
+  <!-- FECHA -->
+  <p>fecha: mes año</p>
+
+  <hr>
+
+  <table width="100%" class="session-table">
+
+    <tr>
+
+      <!-- CONTENIDO PRINCIPAL -->
+      <td width="70%" class="main-content">
+
+        <!-- IMAGEN TABLERO -->
+        <img src="tablero-template.png" width="100%">
+
+        <br><br>
+
+        <!-- AUDIO -->
+        <audio controls src="template.mp3"></audio>
+
+        <br><br>
+
+        <!-- TEXTO -->
+        <p>
+          texto o frase aquí.
+        </p>
+
+      </td>
+
+      <!-- FOTO ARTISTA -->
+      <td width="30%" class="artist-photo" align="right">
+
+        <!-- LINK -->
+        <a href="https://instagram.com/" target="_blank">
+
+          <!-- FOTO -->
+          <img src="template-face.png" width="100">
+
+        </a>
+
+        <!-- NOMBRE -->
+        <p class="artist-name">nombre</p>
+
+      </td>
+
+    </tr>
+
+  </table>
+
+  <hr>
+
+  <!-- NAVEGACIÓN -->
+  <p>
+    <a href="index.html">inicio</a><br>
+    <a href="archivo.html">archivo</a>
+  </p>
+
+</body>
+
+</html>
